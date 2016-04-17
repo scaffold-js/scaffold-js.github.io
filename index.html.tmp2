@@ -108,6 +108,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 						<paper-icon-button id="paperToggle" icon="menu" paper-drawer-toggle></paper-icon-button>
 						<span class="title"></span>
 						<a href="https://github.com/scaffold-js/generator-scaffold-js" target="_blank"><paper-fab mini class="primary" src="images/github-icon.png"></paper-fab></a>
+						<span>&nbsp</span>;
+						<a href="https://twitter.com/scaffoldjs" target="_blank"><paper-fab mini class="primary" src="images/twitter.png"></paper-fab></a>
 						<div class="middle middle-container">
 							<div class="app-name"><bold>scaffold-js</bold></div>
 						</div>
@@ -149,6 +151,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 										<a href="https://plus.google.com/" target="_blank"><paper-icon-button class="giant" src="images/gplus.jpg"></paper-icon-button></a>
 									</div>
 									<h2>News</h2>
+									<p>4/17/2016 - Alpha 1 Released</p>
 									<h2>What is <strong>scaffold-js</strong>?</h2>
 									<p>
 										<strong>scaffold-js</strong> is an opionated <a href="http://yeoman.io">Yeoman generator</a> to create a full stack web page/application.
@@ -230,7 +233,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 									<h1 class="page-title" tabindex="-1">Roadmap</h1>
 									<iron-accordions>
 										<iron-accordion opened>
-											<h2 header>Alpha 1</h2>
+											<h2 header>Alpha 1 - 4/17/2016</h2>
+											<a href="https://github.com/scaffold-js/generator-scaffold-js/releases/tag/alpha-1">https://github.com/scaffold-js/generator-scaffold-js/releases/tag/alpha-1</a>
 											<div>Initial Release</div>
 											<div>Angular/Bootstrap Support</div>
 											<div>Social Login</div>
