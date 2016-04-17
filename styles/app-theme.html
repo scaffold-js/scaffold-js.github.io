@@ -20,7 +20,7 @@
 		--primary-color: var(--paper-blue-grey-500);
 		--light-primary-color: var(--paper-blue-grey-100);
 		--dark-primary-color: var(--paper-blue-grey-700);
-		--accent-color: var(--paper-orange);
+		--accent-color: var(--paper-orange-500);
 		--light-accent-color: var(--paper-orange-100);
 		--dark-accent-color: var(--paper-orange-700);
 
@@ -55,6 +55,15 @@
 
 	#drawerToolbar .menu-name {
 		@apply(--paper-font-title);
+	}
+
+	paper-fab.primary {
+		--paper-fab-background: var(--accent-color);
+		--paper-fab-keyboard-focus-background: var(--accent-color);
+	}
+
+	paper-button.primary:hover {
+		background-color: var(--dark-primary-color);
 	}
 
 	paper-scroll-header-panel {
