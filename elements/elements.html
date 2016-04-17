@@ -20643,6 +20643,11 @@ module.exports = Array.isArray || function (arr) {
       setFocus(app.route);
     });
 
+    page('/production', function() {
+      app.route = 'production';
+      setFocus(app.route);
+    });
+
     page('/internationalization', function() {
       app.route = 'internationalization';
       setFocus(app.route);
@@ -20664,7 +20669,7 @@ module.exports = Array.isArray || function (arr) {
     });
 
     page('/legal', function() {
-      app.route = 'production';
+      app.route = 'legal';
       setFocus(app.route);
     });
 
