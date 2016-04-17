@@ -108,6 +108,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 						<paper-icon-button id="paperToggle" icon="menu" paper-drawer-toggle></paper-icon-button>
 						<span class="title"></span>
 						<a href="https://github.com/scaffold-js/generator-scaffold-js" target="_blank"><paper-fab mini class="primary" src="images/github-icon.png"></paper-fab></a>
+						<span>&nbsp</span>;
+						<a href="https://twitter.com/scaffoldjs" target="_blank"><paper-fab mini class="primary" src="images/twitter.png"></paper-fab></a>
 						<div class="middle middle-container">
 							<div class="app-name"><bold>scaffold-js</bold></div>
 						</div>
